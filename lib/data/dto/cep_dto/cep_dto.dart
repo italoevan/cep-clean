@@ -1,5 +1,6 @@
 import 'package:cep_poc/domain/entities/cep_entity.dart';
 
+
 extension CepDto on CepEntity {
   static CepEntity fromJson(Map<String, dynamic> map) {
     return CepEntity(
@@ -15,3 +16,5 @@ extension CepDto on CepEntity {
         siafi: map['siafi']);
   }
 }
+
+
